@@ -1,0 +1,31 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "node ../../scripts/sync-convex-env.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "setup:convex-env": "node ../../scripts/setup-convex-env.mjs",
+    "sync:env": "node ../../scripts/sync-convex-env.mjs"
+  },
+  "dependencies": {
+    "@convex-dev/better-auth": "^0.13.0",
+    "@mbgeezzzz/convex": "*",
+    "better-auth": "~1.7.16",
+    "convex": "^1.49.0",
+    "jose": "^6.2.17",
+    "lucide-react": "^1.72.0",
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "4.3.3",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "tailwindcss": "4.3.3"
+  }
+}
